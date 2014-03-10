@@ -1,7 +1,7 @@
 The Renderers
 =============
 
-[sec:renderers]
+.. renderers:
 
 General
 -------
@@ -9,7 +9,7 @@ General
 Reproduction Setups
 ~~~~~~~~~~~~~~~~~~~
 
-[sec:reproduction\ :sub:`s`\ etups]
+.. reprodutcion_setups:
 
 The geometry of the actual reproduction setup is specified in ``.asd``
 files, just like sound scenes. By default, it is loaded from the file
@@ -111,9 +111,9 @@ attenuation will be provided.
 The amplitude reference distance, i.e. the distance from the reference
 at which plane waves are as loud as the other source types (like point
 sources), can be set in the SSR configuration file
-(Section [sec:ssr\ :sub:`c`\ onfiguration\ :sub:`f`\ ile]). The desired
+(Section :ref:'ssr_configuration_file<ssr_configuration_file>'). The desired
 amplitude reference distance for a given sound scene can be specified in
-the scene description (Section [sec:asdf]). The default value is 3 m.
+the scene description (Section :ref:'asdf<asdf>'). The default value is 3 m.
 
 Doppler Effect
 ~~~~~~~~~~~~~~
@@ -157,7 +157,7 @@ approach which is computationally significantly more costly.
 Binaural Renderer
 -----------------
 
-[sec:binaural\ :sub:`r`\ enderer]
+.. binarual_renderer:
 
 Binaural rendering is a technique where the acoustical influence of the
 human head is electronically simulated to position virtual sound sources
@@ -170,7 +170,7 @@ head-related impulse responses (HRIRs). The HRIRs are loaded from the
 file ``/usr/local/share/ssr/default_hrirs.wav``. If you want to use
 different HRIRs then use the ``–hrirs=FILE`` command line option or the
 SSR configuration file
-(Section [sec:ssr\ :sub:`c`\ onfiguration\ :sub:`f`\ ile]) to specify
+(Section :ref:'ssr_configuration_file<ssr_configuration_file>') to specify
 your custom location. The SSR connects its outputs automatically to
 outputs 1 and 2 of your sound card.
 
@@ -237,11 +237,13 @@ to your needs. This script converts the HRIRs of the KEMAR mannequin
 included in the CIPIC database to the format which the SSR expects. See
 the script for further information and how to obtain the raw HRIRs.
 
-[sec:brs]Binaural Room Synthesis Renderer
+Binaural Room Synthesis Renderer
 -----------------------------------------
 
+.. brs:
+
 The Binaural Room Synthesis (BRS) renderer is a binaural renderer (refer
-to Section [sec:binaural\ :sub:`r`\ enderer]) which uses one dedicated
+to Section :ref:'binaural_renderer<binaural_renderer>') which uses one dedicated
 HRIR set of each individual sound source. The motivation is to have more
 realistic reproduction than in simple binaural rendering. In this
 context HRIRs are typically referred to as binaural room impulse
@@ -260,7 +262,7 @@ only necessary when a correct graphical illustration is desired.
 
 The BRIRs are stored in the a format similar to the one for the HRIRs
 for the binaural renderer (refer to
-Section [sec:binaural\ :sub:`r`\ enderer]). However, there is a
+Section :ref:'binaural_renderer<binaural_renderers>'). However, there is a
 fundamental difference: In order to be consequent, the different
 channels do not hold the data for different positions of the virtual
 sound source but they hold the information for different head
@@ -280,9 +282,7 @@ orientations. Explicitely,
 
 In order to assign a set of BRIRs to a given sound source an appropriate
 scene description in ``.asd``-format has to be prepared (refer also to
-Section [sec:audio\ :sub:`s`\ cenes]). As shown in ``brs_example.asd``
-(from the example scenes), a virtual source has the optional property
-``properties_file`` which holds the location of the file containing the
+Section :ref:'audio_scenes<audio_scenes>'). As shown in ``brs_example.asd`` (from the example scenes), a virtual source has the optional property ``properties_file`` which holds the location of the file containing the
 desired BRIR set. The location to be specified is relative to the folder
 of the scene file. Note that – as described above – specification of the
 virtual source’s position does not affect the audio processing. If you
@@ -328,7 +328,7 @@ Contrary to WFS, non-uniform distributions of loudspeakers are ok here.
 Ideally, the loudspeakers should be placed on a circle around the
 reference position. You can optionally specify a delay for each
 loudspeakers in order to compensate some amount of misplacement. In the
-ASDF (refer to Section [sec:asdf]), each loudspeaker has the optional
+ASDF (refer to Section :ref:'asdf<asdf>'), each loudspeaker has the optional
 attribute ``delay`` which determines the delay in seconds to be applied
 to the respective loudspeaker. Note that the specified delay will be
 rounded to an integer factor of the temporal sampling period. With 44.1
@@ -336,7 +336,7 @@ kHz sampling frequency this corresponds to an accuracy of 22.676
 :math:`\mu`\ s, respectively an accuracy of 7.78 mm in terms of
 loudspeaker placement. Additionally, you can specify a weight for each
 loudspeaker in order to compensate for irregular setups. In the ASDF
-format (refer to Section [sec:asdf]), each loudspeaker has the optional
+format (refer to Section :ref:'asdf<asdf>'), each loudspeaker has the optional
 attribute ``weight`` which determines the linear (!) weight to be
 applied to the respective loudspeaker. An example would be
 
@@ -368,7 +368,7 @@ implements the simple driving function given in . Note that we have only
 implemented a temporary solution to reduce artifacts when virtual sound
 sources are moved. This topic is subject to ongoing research. We will
 work on that in the future. In the SSR configuration file
-(Section [sec:ssr\ :sub:`c`\ onfiguration\ :sub:`f`\ ile]) you can
+(Section :ref:'ssr_configuration_file<ssr_configuration_file>') you can
 specify an overall predelay (this is necessary to render focused
 sources) and the overall length of the involved delay lines. Both values
 are given in samples.
@@ -382,9 +382,9 @@ correction is equal for all loudspeakers, it needs to be performed only
 once on the input. We are working on an automatic generation of the
 required filter. Until then, we load the impulse response of the desired
 filter from a .wav-file which is specified via the ``–prefilter=FILE``
-command line option (see Section [sec:running\ :sub:`s`\ sr]) or in the
+command line option (see Section :ref:'Running_SSR<running_ssr>') or in the
 SSR configuration file
-(Section [sec:ssr\ :sub:`c`\ onfiguration\ :sub:`f`\ ile]). Make sure
+(Section :ref:'ssr_configuration_file<ssr_configuration_file>'). Make sure
 that the specified audio file contains only one channel. Files with a
 differing number of channels will not be loaded. Of course, the sampling
 rate of the file also has to match that of the JACK server.
@@ -477,8 +477,8 @@ automatically chosen order will be one of (L-1)2 for an odd number
 :math:`L` of loudspeakers and accordingly for even numbers.
 
 You can manually set the order via a command line option
-(Section [sec:running\ :sub:`s`\ sr]) or the SSR configuration file
-(Section [sec:ssr\ :sub:`c`\ onfiguration\ :sub:`f`\ ile]). We therefore
+(Section :ref:'Running_SSR<running_ssr>') or the SSR configuration file
+(Section :ref:'ssr_configuration_file<ssr_configuration_file>'). We therefore
 do not explicitly discriminate between “higher order” and “lower order”
 Ambisonics since this is not a fundamental property. And where does
 “lower order” end and “higher order” start anyway?
@@ -526,7 +526,7 @@ Note that in-phase rendering leads to a less precise localization of the
 virtual source and other unwanted perceptions. You can enable in-phase
 rendering via the according command-line option or you can set the
 ``IN_PHASE_RENDERING`` property in the SSR configuration file (see
-section [sec:ssr\ :sub:`c`\ onfiguration\ :sub:`f`\ ile]) to be
+section :ref:'ssr_configuration_file<ssr_configuration_file>') to be
 “``TRUE``” or “``true``”.
 
 Generic Renderer

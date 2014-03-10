@@ -12,7 +12,7 @@ room (re-)synthesis (BRTF-based reproduction), head-tracked binaural
 playback, Ambisonics Amplitude Panning (AAP), and Vector Base Amplitude
 Panning (VBAP). There are also the slightly exotic Generic Renderer. For
 each rendering algorithm there is a separate executable file. For more
-details see section [sec:renderers].
+details see section :ref:'renderers<renderers>'.
 
 The SSR is intended as versatile framework for the state-of-the-art
 implementation of various spatial audio reproduction techniques. You may
@@ -30,7 +30,7 @@ listener at a time.
 Quick Start
 -----------
 
-[sec:quick\ :sub:`s`\ tart]
+.. quick_start:
 
 After downloading the SSR package, open a shell and use following
 commands:
@@ -63,7 +63,7 @@ steps:
 
        ``jackd -d alsa -r 44100``
 
-   See section [sec:running\ :sub:`s`\ sr] and ``man jackd`` for further
+   See section :ref:'Running_SSR<running_ssr>' and ``man jackd`` for further
    options.
 
 -  Open the SSR with an audio file of your choice. This can be a
@@ -79,18 +79,18 @@ all your resources to audio processing, try
 
     ``ssr –no-gui my_audio_file.wav``
 
-For further options, see section [sec:running\ :sub:`s`\ sr] and
+For further options, see section :ref:'Running_SSR<running_ssr>' and
 ``ssr –help``.
 
 Audio Scenes
 ------------
 
-[sec:audio\ :sub:`s`\ cenes]
+.. audio_scenes:
 
 Format
 ~~~~~~
 
-The SSR can open ``.asd`` files (refer to section [sec:asdf]) as well as
+The SSR can open ``.asd`` files (refer to section :ref:'asdf<asdf>') as well as
 normal audio files. If an audio file is opened, SSR creates an
 individual virtual sound source for each channel which the audio file
 contains. If a two-channel audio file is opened, the resulting virtual
@@ -117,7 +117,7 @@ system.] |image| [[fig:local\ :sub:`c`\ oordinate\ :sub:`s`\ ystem]Local
 coordinate system relative to the reference. The latter is indicated by
 the rhomb.] |image1| [fig:coordinate\ :sub:`s`\ ystem]The coordinate
 system used in the SSR. In ASDF :math:`\alpha` and :math:`\alpha'` are
-referred to as azimuth (refer to section [sec:asdf]).
+referred to as azimuth (refer to section :ref:'asdf<asdf>').
 
 Fig. [fig:global\ :sub:`c`\ oordinate\ :sub:`s`\ ystem] depicts the
 global coordinate system used in the SSR. Virtual sound sources as well
@@ -154,12 +154,12 @@ useful to a limited extent unless you want to move inside the scene.
 However, for the binaural methods it is essential that both the
 reference position and orientation (i.e. the listener’s position and
 orientation) are tracked and updated in real-time. Refer also to
-Sec. [sec:head\ :sub:`t`\ racking].
+Sec. :ref:'head_tracking<head_tracking>'.
 
 Audio Scene Description Format (ASDF)
 -------------------------------------
 
-[sec:asdf]
+.. asdf:
 
 Besides pure audio files, SSR can also read the current development
 version of the *Audio Scene Description Format (ASDF)* . Note however
@@ -221,7 +221,7 @@ examples for audio scenes can be downloaded from the SSR website .
 IP Interface
 ------------
 
-[sec:ip\ :sub:`i`\ nterface]
+.. ip_interface:
 
 One of the key features of the SSR is an interface which lets you
 remotely control the SSR via a TCP socket using XML messages. This
@@ -229,7 +229,7 @@ interface enables you to straightforwardly connect any type of
 interaction tool from any type of operating system. The format of the
 messages sent over the network is still under development and may very
 likely change in future versions. Please find some brief information in
-section [sec:network].
+section :ref:'network<network>'.
 
 Bug Reports, Feature Requests and Comments
 ------------------------------------------

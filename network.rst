@@ -1,7 +1,7 @@
 Network Interface
 =================
 
-[sec:network]
+.. network:
 
 This is just a short overview about the XML messages which can be sent
 to the SSR via TCP/IP. The messages have to be terminated with a binary

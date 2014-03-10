@@ -17,13 +17,13 @@ can download it from the SSR website . After downloading, you can unpack
 the tarball with the command ``tar xvzf ssr-x.x.x.tar.gz`` in a shell.
 This will extract the source code to a directory of the form
 ``ssr-x.x.x`` where “x” stands for the version numbers. ``cd`` to this
-directory and proceed with section [sec:configuring] to configure the
+directory and proceed with section :ref:'configuring<configuring>' to configure the
 SSR.
 
 Configuring
 -----------
 
-[sec:configuring]
+.. configuring:
 
 To build the SSR from source you have to configure first. Open a shell
 and ``cd`` to the directory containing the source code of the package
@@ -34,19 +34,21 @@ and type:
     ./configure
 
 This script will check your system for dependencies and prepare the
-``Makefile`` required for compilation. Section [sec:dependencies] lists
+``Makefile`` required for compilation. Section :ref:'dependencies<dependencies>' lists
 the dependencies that must be installed on your system. The
 ``configure`` script will signal if dependencies are missing. At
 successful termination of the ``configure`` script a summary will show
 up.
 
-Section [sec:hints\ :sub:`c`\ onf] is intended to help you
+Section :ref:'hints_conf<hints_conf>' is intended to help you
 troubleshooting.
 
 Dependencies
 ~~~~~~~~~~~~
 
-[sec:dependencies] At least the following software (libraries and
+.. dependencies:
+
+ At least the following software (libraries and
 headers) including their development packages (*dev* or *devel*), where
 available, are required for a full installation of the SSR:
 
@@ -73,13 +75,13 @@ about head tracking.
 Hints on Configuration
 ~~~~~~~~~~~~~~~~~~~~~~
 
-[sec:hints\ :sub:`c`\ onf]
+.. hints_conf:
 
 If you encounter problems configuring the SSR these hints could help:
 
 -  Ensure that you really installed all libraries (``lib``) with
    devel-package (``devel`` or ``dev``, where available) mentioned in
-   section [sec:dependencies].
+   section :ref:'dependencies<dependencies>'.
 
 -  It may be necessary to run ``ldconfig`` after installing new
    libraries.
@@ -100,7 +102,7 @@ can be useful for debugging dependencies.
 Compiling and Installing
 ------------------------
 
-[sec:comp\ :sub:`i`\ nst]
+.. comp_inst:
 
 If the configure script terminates with success, it creates a file named
 ``Makefile``. You can build the SSR by typing
@@ -121,7 +123,7 @@ course you can easily remove it from your system with
 Running the SSR
 ---------------
 
-[sec:running\ :sub:`s`\ sr]
+.. running_ssr:
 
 Before you start the SSR, start JACK , e.g. by typing
 ``jackd -d alsa -r 44100`` in a shell or using the graphical user
@@ -193,7 +195,7 @@ Choose the appropriate arguments and make sure that your amplifiers are
 not turned too loud…
 
 To stop the SSR use either the options provided by the GUI (section
-[sec:gui]) or type ``Crtl+c`` in the shell in which you started the SSR.
+:ref:'gui<gui>') or type ``Crtl+c`` in the shell in which you started the SSR.
 
 Keyboard actions in non-GUI mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -223,8 +225,8 @@ You can record the audio output of the SSR using the ``–record=FILE``
 command line option. All output signals (i.e. the loudspeaker signals)
 will be recorded to a multichannel wav-file named ``FILE``. The order of
 channels corresponds to the order of loudspeakers specifed in the
-reproduction setup (see sections [sec:reproduction\ :sub:`s`\ etups] and
-[sec:asdf]). The recording can then be used to analyze the SSR output or
+reproduction setup (see sections :ref:'reproductions_setups<reproductions_setps>' and
+:ref:'asdf<asdf>'). The recording can then be used to analyze the SSR output or
 to replay it without the SSR using a software player like ``ecaplay`` .
 
 Configuration File
@@ -260,13 +262,13 @@ there’s also a command line alternative (``–master-volume-correction``).
 Head Tracking
 -------------
 
-[sec:head\ :sub:`t`\ racking]
+.. head_tracking:
 
 We provide integration of the *InterSense InertiaCube3* tracking sensor
 and the *Polhemus Fastrak* . They are used to update the orientation of
 the reference (in binaural reproduction this is the listener) in
-real-time. Please read sections [sec:prep\ :sub:`i`\ sense] and
-[sec:prep\ :sub:`p`\ ol] if you want to compile the SSR with the support
+real-time. Please read sections :ref:'prep_isense<prep_isense>' and
+:ref:'prep_pol<prep_pol>' if you want to compile the SSR with the support
 for these trackers.
 
 Note that on startup, the SSR tries to find the tracker. If it fails, it
@@ -280,7 +282,7 @@ straight forward (:math:`\alpha = 90^\circ`\ ).
 Preparing InterSense InertiaCube3
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[sec:prep\ :sub:`i`\ sense]
+.. prep_isense:
 
 If you want to compile the SSR with support for the *InterSense
 InertiaCube3* tracking sensor , please download the *InterSense Software
@@ -304,7 +306,9 @@ but the file is placed correctly, run ``ldconfig``.
 Preparing Polhemus Fastrack
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[sec:prep\ :sub:`p`\ ol] For incorporation of the *Polhemus Fastrack* 
+..prp_pol:
+
+For incorporation of the *Polhemus Fastrack* 
 with serial connection, no additional libraries are required. If you
 want to disable this tracker, use `` ./configure --disable-polhemus``
 and recompile.
@@ -313,7 +317,7 @@ Using the SSR with DAWs
 -----------------------
 
 As stated before, the SSR is currently not able to dynamically replay
-audio files (refer to section [sec:asdf]). If your audio scenes are
+audio files (refer to section :ref:'asdf<asdf>'). If your audio scenes are
 complex, you might want to consider using the SSR together with a
 digital audio work station (DAW). To do so, you simply have to create as
 many sources in the SSR as you have audio tracks in your respective DAW
