@@ -63,7 +63,7 @@ steps:
 
        ``jackd -d alsa -r 44100``
 
-   See section :ref:'Running_SSR' and ``man jackd`` for further
+   See section :ref:`Running_SSR` and ``man jackd`` for further
    options.
 
 -  Open the SSR with an audio file of your choice. This can be a
