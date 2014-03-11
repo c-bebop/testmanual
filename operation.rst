@@ -23,7 +23,7 @@ SSR.
 Configuring
 -----------
 
-.. configuring:
+.. _configuring:
 
 To build the SSR from source you have to configure first. Open a shell
 and ``cd`` to the directory containing the source code of the package
@@ -46,7 +46,7 @@ troubleshooting.
 Dependencies
 ~~~~~~~~~~~~
 
-.. dependencies:
+.. _dependencies:
 
  At least the following software (libraries and
 headers) including their development packages (*dev* or *devel*), where
@@ -75,7 +75,7 @@ about head tracking.
 Hints on Configuration
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. hints_conf:
+.. _hints_conf:
 
 If you encounter problems configuring the SSR these hints could help:
 
@@ -102,7 +102,7 @@ can be useful for debugging dependencies.
 Compiling and Installing
 ------------------------
 
-.. comp_inst:
+.. _comp_inst:
 
 If the configure script terminates with success, it creates a file named
 ``Makefile``. You can build the SSR by typing
@@ -123,7 +123,7 @@ course you can easily remove it from your system with
 Running the SSR
 ---------------
 
-.. running_ssr:
+.. _running_ssr:
 
 Before you start the SSR, start JACK , e.g. by typing
 ``jackd -d alsa -r 44100`` in a shell or using the graphical user
@@ -232,7 +232,7 @@ to replay it without the SSR using a software player like ``ecaplay`` .
 Configuration File
 ------------------
 
-[sec:ssr\ :sub:`c`\ onfiguration\ :sub:`f`\ ile]
+.. _sub_configuration_file:
 
 The general configuration of the SSR (if GUI is enabled, which tracker
 to use etc.) can be specified in a configuration file (e.g.
@@ -262,7 +262,7 @@ there’s also a command line alternative (``–master-volume-correction``).
 Head Tracking
 -------------
 
-.. head_tracking:
+.. _head_tracking:
 
 We provide integration of the *InterSense InertiaCube3* tracking sensor
 and the *Polhemus Fastrak* . They are used to update the orientation of
@@ -282,7 +282,7 @@ straight forward (:math:`\alpha = 90^\circ`\ ).
 Preparing InterSense InertiaCube3
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. prep_isense:
+.. _prep_isense:
 
 If you want to compile the SSR with support for the *InterSense
 InertiaCube3* tracking sensor , please download the *InterSense Software
@@ -306,7 +306,7 @@ but the file is placed correctly, run ``ldconfig``.
 Preparing Polhemus Fastrack
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-..prp_pol:
+.. _prp_pol:
 
 For incorporation of the *Polhemus Fastrack* 
 with serial connection, no additional libraries are required. If you
