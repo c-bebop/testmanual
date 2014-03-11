@@ -82,10 +82,10 @@ all your resources to audio processing, try
 For further options, see section :ref:'Running_SSR' and
 ``ssr –help``.
 
+.. _audio_scenes:
+
 Audio Scenes
 ------------
-
-.. _audio_scenes:
 
 Format
 ~~~~~~
@@ -156,10 +156,10 @@ reference position and orientation (i.e. the listener’s position and
 orientation) are tracked and updated in real-time. Refer also to
 Sec. :ref:'head_tracking'.
 
+.. _asdf:
+
 Audio Scene Description Format (ASDF)
 -------------------------------------
-
-.. _asdf:
 
 Besides pure audio files, SSR can also read the current development
 version of the *Audio Scene Description Format (ASDF)* . Note however
@@ -218,10 +218,10 @@ channels of your sound card. If your sound card happens to have less
 than four outputs, less sources will be created accordingly. More
 examples for audio scenes can be downloaded from the SSR website .
 
+.. _ip_interface:
+
 IP Interface
 ------------
-
-.. _ip_interface:
 
 One of the key features of the SSR is an interface which lets you
 remotely control the SSR via a TCP socket using XML messages. This
