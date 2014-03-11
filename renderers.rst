@@ -1,15 +1,15 @@
+.. _renderers:
+
 The Renderers
 =============
-
-.. _renderers:
 
 General
 -------
 
+.. _reprodutcion_setups:
+
 Reproduction Setups
 ~~~~~~~~~~~~~~~~~~~
-
-.. _reprodutcion_setups:
 
 The geometry of the actual reproduction setup is specified in ``.asd``
 files, just like sound scenes. By default, it is loaded from the file
