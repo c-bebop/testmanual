@@ -12,7 +12,7 @@ room (re-)synthesis (BRTF-based reproduction), head-tracked binaural
 playback, Ambisonics Amplitude Panning (AAP), and Vector Base Amplitude
 Panning (VBAP). There are also the slightly exotic Generic Renderer. For
 each rendering algorithm there is a separate executable file. For more
-details see section 'renderers'.
+details see section :ref:`renderers`.
 
 The SSR is intended as versatile framework for the state-of-the-art
 implementation of various spatial audio reproduction techniques. You may
