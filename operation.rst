@@ -20,10 +20,10 @@ This will extract the source code to a directory of the form
 directory and proceed with section :ref:'configuring<configuring>' to configure the
 SSR.
 
+.. _configuring:
+
 Configuring
 -----------
-
-.. _configuring:
 
 To build the SSR from source you have to configure first. Open a shell
 and ``cd`` to the directory containing the source code of the package
@@ -43,10 +43,10 @@ up.
 Section :ref:'hints_conf<hints_conf>' is intended to help you
 troubleshooting.
 
+.. _dependencies:
+
 Dependencies
 ~~~~~~~~~~~~
-
-.. _dependencies:
 
  At least the following software (libraries and
 headers) including their development packages (*dev* or *devel*), where
@@ -72,10 +72,10 @@ We provide a simple integration of several head tracking systems. Please
 read section [sec:head\ :sub:`t`\ racking] for further informations
 about head tracking.
 
+.. _hints_conf:
+
 Hints on Configuration
 ~~~~~~~~~~~~~~~~~~~~~~
-
-.. _hints_conf:
 
 If you encounter problems configuring the SSR these hints could help:
 
@@ -99,10 +99,10 @@ disable compilation of the head trackers and many other things. Setting
 the influential environment variables with ``./configure VARNAME=value``
 can be useful for debugging dependencies.
 
+.. _comp_inst:
+
 Compiling and Installing
 ------------------------
-
-.. _comp_inst:
 
 If the configure script terminates with success, it creates a file named
 ``Makefile``. You can build the SSR by typing
@@ -120,10 +120,10 @@ course you can easily remove it from your system with
 
     ``make uninstall``
 
+.. _running_ssr:
+
 Running the SSR
 ---------------
-
-.. _running_ssr:
 
 Before you start the SSR, start JACK , e.g. by typing
 ``jackd -d alsa -r 44100`` in a shell or using the graphical user
@@ -229,10 +229,10 @@ reproduction setup (see sections :ref:'reproductions_setups<reproductions_setps>
 :ref:'asdf<asdf>'). The recording can then be used to analyze the SSR output or
 to replay it without the SSR using a software player like ``ecaplay`` .
 
+.. _sub_configuration_file:
+
 Configuration File
 ------------------
-
-.. _sub_configuration_file:
 
 The general configuration of the SSR (if GUI is enabled, which tracker
 to use etc.) can be specified in a configuration file (e.g.
@@ -259,10 +259,10 @@ sources influence the resulting loudness which can be adjusted to the
 desired level by means of the ``MASTER_VOLUME_CORRECTION``. Of course,
 there’s also a command line alternative (``–master-volume-correction``).
 
+.. _head_tracking:
+
 Head Tracking
 -------------
-
-.. _head_tracking:
 
 We provide integration of the *InterSense InertiaCube3* tracking sensor
 and the *Polhemus Fastrak* . They are used to update the orientation of
@@ -279,10 +279,10 @@ You can calibrate the tracker while the SSR is running by pressing
 ``Return``. The instantaneous orientation will then be interpreted as
 straight forward (:math:`\alpha = 90^\circ`\ ).
 
+.. _prep_isense:
+
 Preparing InterSense InertiaCube3
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. _prep_isense:
 
 If you want to compile the SSR with support for the *InterSense
 InertiaCube3* tracking sensor , please download the *InterSense Software
@@ -303,10 +303,10 @@ If you encounter an error-message similar to
 ``libisense.so: cannot open shared object file: No such file or directory``,
 but the file is placed correctly, run ``ldconfig``.
 
+.. _prp_pol:
+
 Preparing Polhemus Fastrack
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. _prp_pol:
 
 For incorporation of the *Polhemus Fastrack* 
 with serial connection, no additional libraries are required. If you
