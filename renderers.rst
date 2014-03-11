@@ -154,10 +154,10 @@ physically correctly reproduced. The physically correct reproduction of
 moving virtual sources as in requires a different implementation
 approach which is computationally significantly more costly.
 
+.. _binarual_renderer:
+
 Binaural Renderer
 -----------------
-
-.. _binarual_renderer:
 
 Binaural rendering is a technique where the acoustical influence of the
 human head is electronically simulated to position virtual sound sources
@@ -237,10 +237,10 @@ to your needs. This script converts the HRIRs of the KEMAR mannequin
 included in the CIPIC database to the format which the SSR expects. See
 the script for further information and how to obtain the raw HRIRs.
 
+.. _brs:
+
 Binaural Room Synthesis Renderer
 -----------------------------------------
-
-.. _brs:
 
 The Binaural Room Synthesis (BRS) renderer is a binaural renderer (refer
 to Section :ref:'binaural_renderer<binaural_renderer>') which uses one dedicated
