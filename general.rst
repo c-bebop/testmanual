@@ -27,10 +27,10 @@ densely spaced. For VBAP circular setups are highly recommended. APA
 does require circular setups. The binaural renderer can handle only one
 listener at a time.
 
+.. _quick_start:
+
 Quick Start
 -----------
-
-.. _quick_start:
 
 After downloading the SSR package, open a shell and use following
 commands:
