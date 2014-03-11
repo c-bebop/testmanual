@@ -1,9 +1,9 @@
+.. _gui:
+
 Graphical User Interface
 ========================
 
-.. _gui:
-
- Our graphical user interface (GUI) is quite costly in terms of
+Our graphical user interface (GUI) is quite costly in terms of
 computation. So we emphatically recommend that you **properly configure
 the hardware acceleration of your graphics card**. If you still have
 performance issues make the window as small as possible. The smaller the
@@ -133,10 +133,10 @@ plane waves are indicated.
 You also see icons for the loudspeakers of the current rendering setup
 (if the currently applied technique employs any).
 
+.. _mouse_actions:
+
 Mouse Actions
 -------------
-
-.. _mouse_actions:
 
 The GUI is designed such that the most important functionalities can be
 accessed via a touch screen. Thus, it mostly employs ’left clicks’ with
@@ -179,10 +179,10 @@ etc. them).
 
 Click on the SSR logo and you’ll see the *About the SSR* information.
 
+.. _source_property_dialog:
+
 Source Properties Dialog
 ~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. _source_property_dialog:
 
 |image2| [fig:screenshot\ :sub:`s`\ pd]Source properties dialog
 
@@ -194,10 +194,10 @@ positioning of sources. The properties ``fixed position``, ``muted`` and
 [fig:screenshot\ :sub:`s`\ pd] to see the complete list of properties
 this dialog shows.
 
+.. _keyboard_actions:
+
 Keyboard Actions
 ----------------
-
-.. _keyboard_actions:
 
 A number of keyboard actions have been
 implemented as listed below. Recall that also some keyboard actions are
