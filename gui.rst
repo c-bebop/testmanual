@@ -56,7 +56,7 @@ By default, it shows a time interval of two minutes duration. Whenever
 the progress exceeds the displayed time interval the latter is shifted
 such that the progress is always properly indicated. Below the handle,
 there is a numerical indication of the elapsed time with respect to the
-beginning of the scene. See Sec. :ref:'mouse_actions<mouse_actions>' for
+beginning of the scene. See Sec. :ref:'mouse_actions' for
 information on how to operate on the time line.
 
 To the right of the time line there’s the CPU load gauge. It displays
@@ -79,7 +79,7 @@ giving fast access to a number of scenes. These tabs can be defined in a
 file. By default, the file ``scene_menu.conf`` in the current working
 directory is assumed; there is also an option to specify the file name
 in the SSR configuration file. Refer to
-Sec. :ref:'ssr_configuration_file<ssr_configuration_file>'. The configuration
+Sec. :ref:'ssr_configuration_file'. The configuration
 file for the tabs may contain something like the following:
 
 ::
@@ -152,7 +152,7 @@ or rewind. Left-clicking to the right of the time line skips forward by
 seconds. Double-clicking on the time line skips back to the beginning of
 the scene. Right-clicking on the time line opens an input window in
 order that you can numerically specify the time instant to jump to
-(refer to Sec. :ref:'keyboard_actions<keboard_actions>').
+(refer to Sec. :ref:'keyboard_actions').
 
 You can change the zoom either by clicking into the zoom label and
 dragging up or down for zooming in or out. Alternatively, you can use
@@ -168,7 +168,7 @@ wave’s origin point to the appropriate position. Right clicking on a
 sound source opens a window which lists the properties of the source
 such as position, volume, etc. Refer to
 Fig. [fig:screenshot\ :sub:`s`\ pd] and
-Sec. :ref:'source_propery_dialog<source_property_dialog>'.
+Sec. :ref:'source_propery_dialog'.
 
 A right mouse click on the scene background lets you select multiple
 sound sources via a rubber band.
@@ -202,7 +202,7 @@ Keyboard Actions
 A number of keyboard actions have been
 implemented as listed below. Recall that also some keyboard actions are
 available when the SSR is run without GUI (refer to
-Sec. :ref:'Running_SSR<running_ssr>').
+Sec. :ref:'Running_SSR').
 
 -  ``+/-``: if no sound source is selected: raise/lower master volume by
    1dB,
