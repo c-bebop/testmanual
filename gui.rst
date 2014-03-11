@@ -56,7 +56,7 @@ By default, it shows a time interval of two minutes duration. Whenever
 the progress exceeds the displayed time interval the latter is shifted
 such that the progress is always properly indicated. Below the handle,
 there is a numerical indication of the elapsed time with respect to the
-beginning of the scene. See Sec. :ref:`Mouse Actions<mouse_actions>` for
+beginning of the scene. See Sec. :ref:´Mouse Actions<mouse_actions>´ for
 information on how to operate on the time line.
 
 To the right of the time line there’s the CPU load gauge. It displays
