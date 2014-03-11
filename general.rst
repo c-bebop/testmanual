@@ -79,7 +79,7 @@ all your resources to audio processing, try
 
     ``ssr –no-gui my_audio_file.wav``
 
-For further options, see section :ref:'Running SSR<running_ssr>' and
+For further options, see section :ref:`Running SSR<running_ssr>` and
 ``ssr –help``.
 
 .. _audio_scenes:
@@ -90,7 +90,7 @@ Audio Scenes
 Format
 ~~~~~~
 
-The SSR can open ``.asd`` files (refer to section :ref:`Asdf<asdf>`) as well as
+The SSR can open ``.asd`` files (refer to section :ref:`ASDF<asdf>`) as well as
 normal audio files. If an audio file is opened, SSR creates an
 individual virtual sound source for each channel which the audio file
 contains. If a two-channel audio file is opened, the resulting virtual
@@ -229,7 +229,7 @@ interface enables you to straightforwardly connect any type of
 interaction tool from any type of operating system. The format of the
 messages sent over the network is still under development and may very
 likely change in future versions. Please find some brief information in
-section :ref:'Network<network>'.
+section :ref:`Network<network>`.
 
 Bug Reports, Feature Requests and Comments
 ------------------------------------------
