@@ -63,7 +63,7 @@ steps:
 
        ``jackd -d alsa -r 44100``
 
-   See section :ref:`Running_SSR` and ``man jackd`` for further
+   See section :ref:`Running SSR<running_ssr>` and ``man jackd`` for further
    options.
 
 -  Open the SSR with an audio file of your choice. This can be a
@@ -79,7 +79,7 @@ all your resources to audio processing, try
 
     ``ssr –no-gui my_audio_file.wav``
 
-For further options, see section :ref:'Running_SSR' and
+For further options, see section :ref:'Running SSR<running_ssr>' and
 ``ssr –help``.
 
 .. _audio_scenes:
@@ -90,7 +90,7 @@ Audio Scenes
 Format
 ~~~~~~
 
-The SSR can open ``.asd`` files (refer to section :ref:'asdf') as well as
+The SSR can open ``.asd`` files (refer to section :ref:`Asdf<asdf>`) as well as
 normal audio files. If an audio file is opened, SSR creates an
 individual virtual sound source for each channel which the audio file
 contains. If a two-channel audio file is opened, the resulting virtual
@@ -154,7 +154,7 @@ useful to a limited extent unless you want to move inside the scene.
 However, for the binaural methods it is essential that both the
 reference position and orientation (i.e. the listener’s position and
 orientation) are tracked and updated in real-time. Refer also to
-Sec. :ref:'head_tracking'.
+Sec. :ref:`Head-Tracking<head_tracking>`.
 
 .. _asdf:
 
@@ -229,7 +229,7 @@ interface enables you to straightforwardly connect any type of
 interaction tool from any type of operating system. The format of the
 messages sent over the network is still under development and may very
 likely change in future versions. Please find some brief information in
-section :ref:'network'.
+section :ref:'Network<network>'.
 
 Bug Reports, Feature Requests and Comments
 ------------------------------------------
