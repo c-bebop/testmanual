@@ -34,13 +34,13 @@ and type:
     ./configure
 
 This script will check your system for dependencies and prepare the
-``Makefile`` required for compilation. Section :ref:'dependencies<dependencies>' lists
+``Makefile`` required for compilation. Section :ref:`Dependencies<dependencies>` lists
 the dependencies that must be installed on your system. The
 ``configure`` script will signal if dependencies are missing. At
 successful termination of the ``configure`` script a summary will show
 up.
 
-Section :ref:`hints_conf<hints_conf>` is intended to help you
+Section :ref:`Hints Configuration<hints_conf>` is intended to help you
 troubleshooting.
 
 .. _dependencies:
@@ -69,7 +69,7 @@ available, are required for a full installation of the SSR:
 -  Boost.Asio , included since Boost version 1.35.
 
 We provide a simple integration of several head tracking systems. Please
-read section :ref:`Head_tracking<head_tracking>` for further informations
+read section :ref:`Head Tracking<head_tracking>` for further informations
 about head tracking.
 
 .. _hints_conf:
@@ -267,8 +267,8 @@ Head Tracking
 We provide integration of the *InterSense InertiaCube3* tracking sensor
 and the *Polhemus Fastrak* . They are used to update the orientation of
 the reference (in binaural reproduction this is the listener) in
-real-time. Please read sections :ref:`Prepating Intersense<prep_isense>` and
-:ref:`prep_pol<prep_pol>` if you want to compile the SSR with the support
+real-time. Please read sections :ref:`Preparing Intersense<prep_isense>` and
+:ref:`Prepating Polhemus<prep_pol>` if you want to compile the SSR with the support
 for these trackers.
 
 Note that on startup, the SSR tries to find the tracker. If it fails, it
