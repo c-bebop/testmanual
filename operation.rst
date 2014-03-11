@@ -267,7 +267,7 @@ Head Tracking
 We provide integration of the *InterSense InertiaCube3* tracking sensor
 and the *Polhemus Fastrak* . They are used to update the orientation of
 the reference (in binaural reproduction this is the listener) in
-real-time. Please read sections :ref:`Preparing Intersense<prep_isense>` and :ref:`Preparing Polhemus<prep_pol>` if you want to compile the SSR with the support
+real-time. Please read sections :ref:`Preparing Intersense<prep_isense>` and :ref:`Preparing Polhemus<prp_pol>` if you want to compile the SSR with the support
 for these trackers.
 
 Note that on startup, the SSR tries to find the tracker. If it fails, it
