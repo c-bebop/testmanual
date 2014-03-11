@@ -1,7 +1,7 @@
 The Renderers
 =============
 
-.. renderers:
+.. _renderers:
 
 General
 -------
@@ -9,7 +9,7 @@ General
 Reproduction Setups
 ~~~~~~~~~~~~~~~~~~~
 
-.. reprodutcion_setups:
+.. _reprodutcion_setups:
 
 The geometry of the actual reproduction setup is specified in ``.asd``
 files, just like sound scenes. By default, it is loaded from the file
@@ -157,7 +157,7 @@ approach which is computationally significantly more costly.
 Binaural Renderer
 -----------------
 
-.. binarual_renderer:
+.. _binarual_renderer:
 
 Binaural rendering is a technique where the acoustical influence of the
 human head is electronically simulated to position virtual sound sources
@@ -240,7 +240,7 @@ the script for further information and how to obtain the raw HRIRs.
 Binaural Room Synthesis Renderer
 -----------------------------------------
 
-.. brs:
+.. _brs:
 
 The Binaural Room Synthesis (BRS) renderer is a binaural renderer (refer
 to Section :ref:'binaural_renderer<binaural_renderer>') which uses one dedicated
