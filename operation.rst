@@ -40,7 +40,7 @@ the dependencies that must be installed on your system. The
 successful termination of the ``configure`` script a summary will show
 up.
 
-Section :ref:'hints_conf<hints_conf>' is intended to help you
+Section :ref:`hints_conf<hints_conf>` is intended to help you
 troubleshooting.
 
 .. _dependencies:
@@ -69,7 +69,7 @@ available, are required for a full installation of the SSR:
 -  Boost.Asio , included since Boost version 1.35.
 
 We provide a simple integration of several head tracking systems. Please
-read section [sec:head\ :sub:`t`\ racking] for further informations
+read section :ref:`Head_tracking<head_tracking>` for further informations
 about head tracking.
 
 .. _hints_conf:
@@ -195,7 +195,7 @@ Choose the appropriate arguments and make sure that your amplifiers are
 not turned too loud…
 
 To stop the SSR use either the options provided by the GUI (section
-:ref:'gui<gui>') or type ``Crtl+c`` in the shell in which you started the SSR.
+:ref:`Gui<gui>`) or type ``Crtl+c`` in the shell in which you started the SSR.
 
 Keyboard actions in non-GUI mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -226,7 +226,7 @@ command line option. All output signals (i.e. the loudspeaker signals)
 will be recorded to a multichannel wav-file named ``FILE``. The order of
 channels corresponds to the order of loudspeakers specifed in the
 reproduction setup (see sections :ref:'reproductions_setups<reproductions_setps>' and
-:ref:'asdf<asdf>'). The recording can then be used to analyze the SSR output or
+:ref:`ASDF<asdf>`). The recording can then be used to analyze the SSR output or
 to replay it without the SSR using a software player like ``ecaplay`` .
 
 .. _sub_configuration_file:
@@ -267,8 +267,8 @@ Head Tracking
 We provide integration of the *InterSense InertiaCube3* tracking sensor
 and the *Polhemus Fastrak* . They are used to update the orientation of
 the reference (in binaural reproduction this is the listener) in
-real-time. Please read sections :ref:'prep_isense<prep_isense>' and
-:ref:'prep_pol<prep_pol>' if you want to compile the SSR with the support
+real-time. Please read sections :ref:`Prepating Intersense<prep_isense>` and
+:ref:`prep_pol<prep_pol>` if you want to compile the SSR with the support
 for these trackers.
 
 Note that on startup, the SSR tries to find the tracker. If it fails, it
@@ -317,7 +317,7 @@ Using the SSR with DAWs
 -----------------------
 
 As stated before, the SSR is currently not able to dynamically replay
-audio files (refer to section :ref:'asdf<asdf>'). If your audio scenes are
+audio files (refer to section :ref:`ASDF<asdf>`). If your audio scenes are
 complex, you might want to consider using the SSR together with a
 digital audio work station (DAW). To do so, you simply have to create as
 many sources in the SSR as you have audio tracks in your respective DAW
