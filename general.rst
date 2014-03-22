@@ -109,13 +109,16 @@ dynamic handling of audio files has not been implemented.
 Coordinate System
 ~~~~~~~~~~~~~~~~~
 
-alpha:math:`\alpha` r:math:`r` x:math:`x` y:math:`y` bx:math:`{\bf x}`
-alphaprime:math:`\alpha'`\ yprime:math:`y'` xprime:math:`x'`
+.. figure:: /_static/global_coordinate_system.png
+   :alt: Global coordinate system
 
-[[fig:global\ :sub:`c`\ oordinate\ :sub:`s`\ ystem]Global coordinate
-system.] |image| [[fig:local\ :sub:`c`\ oordinate\ :sub:`s`\ ystem]Local
-coordinate system relative to the reference. The latter is indicated by
-the rhomb.] |image1| [fig:coordinate\ :sub:`s`\ ystem]The coordinate
+.. figure:: /_static/global_coordinate_system.png
+   :alt: Local coordinate system relative to the reference. The latter is indicated by the rhomb.
+
+
+
+
+The coordinate
 system used in the SSR. In ASDF :math:`\alpha` and :math:`\alpha'` are
 referred to as azimuth (refer to section :ref:'asdf<asdf>').
 
