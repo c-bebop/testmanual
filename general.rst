@@ -109,10 +109,10 @@ dynamic handling of audio files has not been implemented.
 Coordinate System
 ~~~~~~~~~~~~~~~~~
 
-.. figure:: /_static/global_coordinate_system.png
+.. figure:: global_coordinate_system.png
    :alt: Global coordinate system
 
-.. figure:: /_static/global_coordinate_system.png
+.. figure:: global_coordinate_system.png
    :alt: Local coordinate system relative to the reference. The latter is indicated by the rhomb.
 
 
