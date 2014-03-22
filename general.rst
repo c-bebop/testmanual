@@ -12,7 +12,7 @@ room (re-)synthesis (BRTF-based reproduction), head-tracked binaural
 playback, Ambisonics Amplitude Panning (AAP), and Vector Base Amplitude
 Panning (VBAP). There are also the slightly exotic Generic Renderer. For
 each rendering algorithm there is a separate executable file. For more
-details see section :ref:'renderers<renderers>'.
+details see section :ref:`Renderers<renderers>`.
 
 The SSR is intended as versatile framework for the state-of-the-art
 implementation of various spatial audio reproduction techniques. You may
@@ -27,10 +27,10 @@ densely spaced. For VBAP circular setups are highly recommended. APA
 does require circular setups. The binaural renderer can handle only one
 listener at a time.
 
+.. _quick_start:
+
 Quick Start
 -----------
-
-.. quick_start:
 
 After downloading the SSR package, open a shell and use following
 commands:
@@ -63,7 +63,7 @@ steps:
 
        ``jackd -d alsa -r 44100``
 
-   See section :ref:'Running_SSR<running_ssr>' and ``man jackd`` for further
+   See section :ref:`Running SSR<running_ssr>` and ``man jackd`` for further
    options.
 
 -  Open the SSR with an audio file of your choice. This can be a
@@ -79,18 +79,18 @@ all your resources to audio processing, try
 
     ``ssr –no-gui my_audio_file.wav``
 
-For further options, see section :ref:'Running_SSR<running_ssr>' and
+For further options, see section :ref:`Running SSR<running_ssr>` and
 ``ssr –help``.
+
+.. _audio_scenes:
 
 Audio Scenes
 ------------
 
-.. audio_scenes:
-
 Format
 ~~~~~~
 
-The SSR can open ``.asd`` files (refer to section :ref:'asdf<asdf>') as well as
+The SSR can open ``.asd`` files (refer to section :ref:`ASDF<asdf>`) as well as
 normal audio files. If an audio file is opened, SSR creates an
 individual virtual sound source for each channel which the audio file
 contains. If a two-channel audio file is opened, the resulting virtual
@@ -154,12 +154,12 @@ useful to a limited extent unless you want to move inside the scene.
 However, for the binaural methods it is essential that both the
 reference position and orientation (i.e. the listener’s position and
 orientation) are tracked and updated in real-time. Refer also to
-Sec. :ref:'head_tracking<head_tracking>'.
+Sec. :ref:`Head-Tracking<head_tracking>`.
+
+.. _asdf:
 
 Audio Scene Description Format (ASDF)
 -------------------------------------
-
-.. asdf:
 
 Besides pure audio files, SSR can also read the current development
 version of the *Audio Scene Description Format (ASDF)* . Note however
@@ -218,10 +218,10 @@ channels of your sound card. If your sound card happens to have less
 than four outputs, less sources will be created accordingly. More
 examples for audio scenes can be downloaded from the SSR website .
 
+.. _ip_interface:
+
 IP Interface
 ------------
-
-.. ip_interface:
 
 One of the key features of the SSR is an interface which lets you
 remotely control the SSR via a TCP socket using XML messages. This
@@ -229,7 +229,7 @@ interface enables you to straightforwardly connect any type of
 interaction tool from any type of operating system. The format of the
 messages sent over the network is still under development and may very
 likely change in future versions. Please find some brief information in
-section :ref:'network<network>'.
+section :ref:`Network<network>`.
 
 Bug Reports, Feature Requests and Comments
 ------------------------------------------
