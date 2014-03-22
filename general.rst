@@ -113,7 +113,7 @@ Coordinate System
     :align: center
     
 Figure 1: The coordinate system used in the SSR. In ASDF :math:`\alpha` and :math:`\alpha'` are
-referred to as azimuth (refer to section :ref:'asdf<asdf>').
+referred to as azimuth (refer to section :ref:`asdf<asdf>`).
 
 Fig. [fig:global coordinate system] depicts the
 global coordinate system used in the SSR. Virtual sound sources as well
