@@ -110,7 +110,6 @@ Coordinate System
 ~~~~~~~~~~~~~~~~~
 
 .. figure:: coordinate_system.png
-    :align:center
     
 The coordinate system used in the SSR. In ASDF :math:`\alpha` and :math:`\alpha'` are
 referred to as azimuth (refer to section :ref:'asdf<asdf>').
