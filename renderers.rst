@@ -178,7 +178,7 @@ the listener position) than 0.5 mtrs, the HRTFs are interpolated with a
 Dirac impulse. This ensures a smooth transition of virtual sources from
 the outside of the listener’s head to the inside.
 
-SSR uses HRIRs with an angular resolution of 1:math:`^\circ` . Thus,
+SSR uses HRIRs with an angular resolution of 1 :math:`^\circ`\ . Thus,
 the HRIR file contains 720 impulse responses (360 for each ear) stored
 as a 720-channel .wav-file. The HRIRs all have to be of equal length and
 have to be arranged in the following order:
