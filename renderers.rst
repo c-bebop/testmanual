@@ -553,32 +553,32 @@ Download the ASDF examples from  and check out the file
 
 .. _loudspeaker_properties:
 
-================== ================ ======
-                   individual delay weight  
-================== ================ ======
- binaural renderer      *-*          *-*     
- BRS renderer           *-*          *-*     
- VBAP renderer          *+*          *+*     
- WFS renderer           *-*          *+*     
- AAP renderer          autom.        *+*     
- generic renderer       *-*          *-*     
-================== ================ ======
+==================   ================   ======
+                     individual delay   weight  
+==================   ================   ======
+ binaural renderer      *-*              *-*     
+ BRS renderer           *-*              *-*     
+ VBAP renderer          *+*              *+*     
+ WFS renderer           *-*              *+*     
+ AAP renderer          autom.            *+*     
+ generic renderer       *-*              *-*     
+==================   ================   ======
 
 
 Table 1: Loudspeaker properties considered by the different renderers.
 
 .. _source_props:
 
-================= ====== ===== ======== ================ ========== 
-                  gain   mute  position orientation [1]_ model
-================= ====== ===== ======== ================ ==========
-binaural renderer  *+*    *+*   *+*         *-*          only ampl.
-BRS renderer       *+*    *+*   *-*         *-*             *-*
-VBAP renderer      *+*    *+*   *+*         *-*          only ampl.
-WFS renderer       *+*    *+*   *+*         *+*             *+*
-AAP renderer       *+*    *+*   *+*         *-*          only ampl.
-generic renderer   *+*    *+*   *-*         *-*             *-*
-================= ====== ===== ======== ================ ==========
+=================   ======   =====  ========  ================  ========== 
+                    gain     mute   position  orientation [1]_  model
+=================   ======   =====  ========  ================  ==========
+binaural renderer    *+*     *+*     *+*         *-*            only ampl.
+BRS renderer         *+*     *+*     *-*         *-*              *-*
+VBAP renderer        *+*     *+*     *+*         *-*            only ampl.
+WFS renderer         *+*     *+*     *+*         *+*              *+*
+AAP renderer         *+*     *+*     *+*         *-*            only ampl.
+generic renderer     *+*     *+*     *-*         *-*              *-*
+=================   ======   =====  ========  ================  ==========
 
 Table 2: Virtual source’s properties considered by the different renderers.
 
