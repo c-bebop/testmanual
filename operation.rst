@@ -17,7 +17,7 @@ can download it from the SSR website . After downloading, you can unpack
 the tarball with the command ``tar xvzf ssr-x.x.x.tar.gz`` in a shell.
 This will extract the source code to a directory of the form
 ``ssr-x.x.x`` where “x” stands for the version numbers. ``cd`` to this
-directory and proceed with section :ref:'configuring<configuring>' to configure the
+directory and proceed with section :ref:`configuring<configuring>` to configure the
 SSR.
 
 .. _configuring:
@@ -48,8 +48,7 @@ troubleshooting.
 Dependencies
 ~~~~~~~~~~~~
 
- At least the following software (libraries and
-headers) including their development packages (*dev* or *devel*), where
+At least the following software (libraries and headers) including their development packages (*dev* or *devel*), where
 available, are required for a full installation of the SSR:
 
 -  JACK Audio Connection Kit
@@ -81,7 +80,7 @@ If you encounter problems configuring the SSR these hints could help:
 
 -  Ensure that you really installed all libraries (``lib``) with
    devel-package (``devel`` or ``dev``, where available) mentioned in
-   section :ref:'dependencies<dependencies>'.
+   section :ref:`dependencies<dependencies>`.
 
 -  It may be necessary to run ``ldconfig`` after installing new
    libraries.
@@ -225,7 +224,7 @@ You can record the audio output of the SSR using the ``–record=FILE``
 command line option. All output signals (i.e. the loudspeaker signals)
 will be recorded to a multichannel wav-file named ``FILE``. The order of
 channels corresponds to the order of loudspeakers specifed in the
-reproduction setup (see sections :ref:'reproductions_setups<reproductions_setps>' and
+reproduction setup (see sections :ref:`Reproductions Setups<reproductions_setups>` and
 :ref:`ASDF<asdf>`). The recording can then be used to analyze the SSR output or
 to replay it without the SSR using a software player like ``ecaplay`` .
 
@@ -309,7 +308,7 @@ Preparing Polhemus Fastrack
 
 For incorporation of the *Polhemus Fastrack* 
 with serial connection, no additional libraries are required. If you
-want to disable this tracker, use `` ./configure --disable-polhemus``
+want to disable this tracker, use ``./configure --disable-polhemus``
 and recompile.
 
 Using the SSR with DAWs
