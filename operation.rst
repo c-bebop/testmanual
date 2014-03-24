@@ -17,7 +17,7 @@ can download it from the SSR website . After downloading, you can unpack
 the tarball with the command ``tar xvzf ssr-x.x.x.tar.gz`` in a shell.
 This will extract the source code to a directory of the form
 ``ssr-x.x.x`` where “x” stands for the version numbers. ``cd`` to this
-directory and proceed with section :ref:`configuring<configuring>` to configure the
+directory and proceed with section :ref:`Configuring<configuring>` to configure the
 SSR.
 
 .. _configuring:
@@ -105,9 +105,10 @@ Compiling and Installing
 
 If the configure script terminates with success, it creates a file named
 ``Makefile``. You can build the SSR by typing
+::
 
-    ``make``
-    ``make install``
+    make
+    make install
 
 This will compile the SSR and install it to your system.
 
@@ -116,8 +117,9 @@ Uninstalling
 
 If the SSR didn’t meet your expectations, we are very sorry, and of
 course you can easily remove it from your system with
+::
+    make uninstall
 
-    ``make uninstall``
 
 .. _running_ssr:
 
