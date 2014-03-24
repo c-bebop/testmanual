@@ -100,7 +100,7 @@ Distance Attenuation
 ~~~~~~~~~~~~~~~~~~~~
 
 Note that in all renderers – except the BRS renderer – distance
-attenuation is handled as :math:`\nicefrac{1}{r}` with respect to the
+attenuation is handled as :math:`\frac{1}{r}` with respect to the
 distance :math:`r` of the respective virtual source to the reference
 position. Sources closer than 0.5 mtrs to the reference position do not
 experience any increase of amplitude. Virtual plane waves do not
