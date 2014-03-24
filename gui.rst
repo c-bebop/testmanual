@@ -191,7 +191,7 @@ Click on the SSR logo and you’ll see the *About the SSR* information.
 Source Properties Dialog
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. _source_properties:
+.. _source_picture:
 
 .. figure:: source_properties.png
     :align: center
@@ -203,7 +203,7 @@ source and shows information about the actual state of the selected
 source. Its main purpose is to provide the possibility of an exact
 positioning of sources. The properties ``fixed position``, ``muted`` and
 ``model`` can be changed. Please refer to figure
-:ref:`5<source_properties>` to see the complete list of properties
+:ref:`5<source_picture>` to see the complete list of properties
 this dialog shows.
 
 .. _keyboard_actions:
