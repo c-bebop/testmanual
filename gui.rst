@@ -174,7 +174,7 @@ reference point. To change their direction of incidence move the plane
 wave’s origin point to the appropriate position. Right clicking on a
 sound source opens a window which lists the properties of the source
 such as position, volume, etc. Refer to
-Fig. :ref:`5<source_property_dialog>` and
+Fig. :ref:`5<source_properties>` and
 Sec. :ref:`Source Properties Dialog<source_property_dialog`.
 
 A right mouse click on the scene background lets you select multiple
@@ -186,10 +186,13 @@ etc. them).
 
 Click on the SSR logo and you’ll see the *About the SSR* information.
 
+
 .. _source_property_dialog:
 
 Source Properties Dialog
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _source_properties:
 
 .. figure:: source_properties.png
     :align: center
@@ -201,7 +204,7 @@ source and shows information about the actual state of the selected
 source. Its main purpose is to provide the possibility of an exact
 positioning of sources. The properties ``fixed position``, ``muted`` and
 ``model`` can be changed. Please refer to figure
-:ref:`5<source_property_dialog>` to see the complete list of properties
+:ref:`5<source_properties>` to see the complete list of properties
 this dialog shows.
 
 .. _keyboard_actions:
