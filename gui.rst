@@ -11,10 +11,12 @@ window is the less is the processing cost.
 
 The SSR GUI tries to enable samplebuffer support to enable anti-aliasing
 of the screen output. It will tell you if it didn’t work out. Check
-Fig. [fig:anti\ :sub:`a`\ liasing] to get an idea of the influence of
+Fig. :ref:`antialiasing<4>` to get an idea of the influence of
 anti-aliasing. One day we will also implement a variable frequency for
 the screen update so that you can slow it down if CPU load is too high.
 Of course it won’t look as nice then.
+
+..ref: antialiasing
 
 .. figure:: gui.png
     :align: center
