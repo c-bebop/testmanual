@@ -11,7 +11,7 @@ window is the less is the processing cost.
 
 The SSR GUI tries to enable samplebuffer support to enable anti-aliasing
 of the screen output. It will tell you if it didn’t work out. Check
-Fig. :ref:`4<antialiasing>` to get an idea of the influence of
+Fig. :ref:`3<antialiasing>` to get an idea of the influence of
 anti-aliasing. One day we will also implement a variable frequency for
 the screen update so that you can slow it down if CPU load is too high.
 Of course it won’t look as nice then.
@@ -22,6 +22,8 @@ Of course it won’t look as nice then.
     :align: center
     
 Figure 3: No anti-aliasing on the left image.
+
+.. _screenshot:
 
 .. figure:: SSR_gui.png
    :align: center
@@ -35,7 +37,7 @@ General Layout
 The graphical user interface (GUI) consists mainly of an illustration of
 the scene that you are hearing and some interaction tools. The renderer
 type is indicated in the window title. See a screen shot in
-Fig. [fig:screenshot].
+Fig. :ref:`4<screenshot>`.
 
 On the top left you will find the file menu where you can open files,
 save scenes, and quit the application. So far only the *save scene as…*
