@@ -21,9 +21,7 @@ Of course it won’t look as nice then.
     
 Figure 3: No anti-aliasing on the left image.
 
-
-
-..figure:: SSR_gui.png
+.. figure:: SSR_gui.png
    :align: center
     
 Figure 4: Screen shot of the SSR GUI.
