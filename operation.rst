@@ -228,7 +228,7 @@ will be recorded to a multichannel wav-file named ``FILE``. The order of
 channels corresponds to the order of loudspeakers specifed in the
 reproduction setup (see sections :ref:`Reproduction Setups<reproduction_setups>` and
 :ref:`ASDF<asdf>`). The recording can then be used to analyze the SSR output or
-to replay it without the SSR using a software player like "ecaplay".
+to replay it without the SSR using a software player like  "ecaplay".
 
 .. _sub_configuration_file:
 
