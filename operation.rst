@@ -224,7 +224,7 @@ You can record the audio output of the SSR using the ``–record=FILE``
 command line option. All output signals (i.e. the loudspeaker signals)
 will be recorded to a multichannel wav-file named ``FILE``. The order of
 channels corresponds to the order of loudspeakers specifed in the
-reproduction setup (see sections :ref:`Reproductions Setups<reproductions_setups>` and
+reproduction setup (see sections :ref:`Reproduction Setups<reproduction_setups>` and
 :ref:`ASDF<asdf>`). The recording can then be used to analyze the SSR output or
 to replay it without the SSR using a software player like ``ecaplay`` .
 
