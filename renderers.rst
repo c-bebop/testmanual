@@ -267,17 +267,17 @@ channels do not hold the data for different positions of the virtual
 sound source but they hold the information for different head
 orientations. Explicitely,
 
--  1st channel: left ear, head orientation 0:math:`^\circ`
+-  1st channel: left ear, head orientation 0 :math:`^\circ`
 
--  2nd channel: right ear, head orientation 0:math:`^\circ`
+-  2nd channel: right ear, head orientation 0 :math:`^\circ`
 
--  3rd channel: left ear, head orientation 1:math:`^\circ`
+-  3rd channel: left ear, head orientation 1 :math:`^\circ`
 
--  4th channel: right ear, head orientation 1:math:`^\circ`
+-  4th channel: right ear, head orientation 1 :math:`^\circ`
 
 -  …
 
--  720th channel: right ear, head orientation 359:math:`^\circ`
+-  720th channel: right ear, head orientation 359 :math:`^\circ`
 
 In order to assign a set of BRIRs to a given sound source an appropriate
 scene description in ``.asd``-format has to be prepared (refer also to
