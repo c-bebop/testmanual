@@ -232,7 +232,7 @@ section :ref:`Network<network>`.
 Bug Reports, Feature Requests and Comments
 ------------------------------------------
 
-Please report any bugs, feature requests and comments to . We will keep
+Please report any bugs, feature requests and comments to ``ssr@spacialaudio.net``. We will keep
 track of them and will try to fix them in a reasonable time. The more
 bugs you report the more we can fix. Of course, you are welcome to
 provide bug fixes. 
@@ -240,7 +240,7 @@ provide bug fixes. 
 Contributors
 ------------
 
-authors.texauthorsFor a list of contributors, please see the file
+For a list of contributors, please see the file
 ``AUTHORS``.
 
 Your Own Contributions
