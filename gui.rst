@@ -121,7 +121,7 @@ an example in folder ``data/``.
 
 The main part of the screen is occupied by the graphical illustration of
 the scene that you are hearing. The orientation of the coordinate system
-is exactly like depicted in Fig. [fig:coordinate\ :sub:`s`\ ystem].
+is exactly like depicted in Fig. :ref:`1<coordinate_system>`.
 I.e., the :math:`x`\ -axis points to the right of the screen, the
 :math:`y`\ -axis points to the top of the screen. The origin of the
 coordinate system is marked by a cross, the reference is marked by a
@@ -130,7 +130,7 @@ vertically upwards on the screen, especially for binaural techniques. We
 do so as well. Note that in this case “straight in front” means
 :math:`\alpha = 90^\circ` and NOT :math:`\alpha=0^\circ`\ .
 
-In Fig. [fig:screenshot] you see a number of sound sources with their
+In Fig. :ref:`4<screenshot>` you see a number of sound sources with their
 individual audio level meters (combined with their individual volume
 sliders) underneath. The left hand boundary of the level meter is at
 -50 dB; the right hand boundary is at 0 dB. Spherical sources don’t have
@@ -174,7 +174,7 @@ reference point. To change their direction of incidence move the plane
 wave’s origin point to the appropriate position. Right clicking on a
 sound source opens a window which lists the properties of the source
 such as position, volume, etc. Refer to
-Fig. [fig:screenshot\ :sub:`s`\ pd] and
+Fig. :ref:`5<source_property_dialog>` and
 Sec. :ref:`Source Properties Dialog<source_property_dialog`.
 
 A right mouse click on the scene background lets you select multiple
@@ -201,7 +201,7 @@ source and shows information about the actual state of the selected
 source. Its main purpose is to provide the possibility of an exact
 positioning of sources. The properties ``fixed position``, ``muted`` and
 ``model`` can be changed. Please refer to figure
-[fig:screenshot\ :sub:`s`\ pd] to see the complete list of properties
+:ref:`5<source_property_dialog>` to see the complete list of properties
 this dialog shows.
 
 .. _keyboard_actions:
