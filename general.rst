@@ -109,7 +109,7 @@ dynamic handling of audio files has not been implemented.
 Coordinate System
 ~~~~~~~~~~~~~~~~~
 
-.. _coordniate_system:
+.. _coordinate_system:
 
 .. figure:: coordinate_system.png
     :align: center
