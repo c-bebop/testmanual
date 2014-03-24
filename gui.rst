@@ -16,13 +16,15 @@ anti-aliasing. One day we will also implement a variable frequency for
 the screen update so that you can slow it down if CPU load is too high.
 Of course it won’t look as nice then.
 
-[htbp]
+.. figure:: gui.png
+    :align: center
+    
+Figure 3: No anti-aliasing on the left image.
 
-|image| [fig:anti\ :sub:`a`\ liasing]No anti-aliasing on the left image.
-
-[!t]
-
-|image1| [fig:screenshot]Screen shot of the SSR GUI.
+..figure:: SSR_gui.png
+    :align: center
+    
+Figure 4: Screen shot of the SSR GUI.
 
 General Layout
 --------------
