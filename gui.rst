@@ -22,6 +22,7 @@ Of course it won’t look as nice then.
 Figure 3: No anti-aliasing on the left image.
 
 
+
 ..figure:: SSR_gui.png
    :align: center
     
