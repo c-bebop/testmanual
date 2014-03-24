@@ -139,7 +139,7 @@ fade-in of the frame processed with the current parameters :math:`n+1`\ ,
 the algorithmic latency is slightly higher than for processing done with
 frames purely of size *nframes* and no crossfade.
 
-.. figure: frame_wise_signal.png
+.. figure:: frame_wise_signal.png
     :align: center
     
 FIgure 2: Illustration of the frame-wise signal processing as implemented in the SSR renderers (see text).
