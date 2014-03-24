@@ -80,7 +80,7 @@ If you encounter problems configuring the SSR these hints could help:
 
 -  Ensure that you really installed all libraries (``lib``) with
    devel-package (``devel`` or ``dev``, where available) mentioned in
-   section :ref:`dependencies<dependencies>`.
+   section :ref:`Dependencies<dependencies>`.
 
 -  It may be necessary to run ``ldconfig`` after installing new
    libraries.
