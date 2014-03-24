@@ -134,7 +134,7 @@ e.g. frame number :math:`n+1` is processed both with previous rendering
 parameters :math:`n` as well as with current parameters :math:`n+1`\ .
 It is then crossfaded between both processed frames with cosine-shaped
 slopes. In other words the effective frame size of the signal processing
-is :math:`2\cdot\textit{nframes}` with 50% overlap. Due to the
+is :math:`2\cdot`*nframes* with 50% overlap. Due to the
 fade-in of the frame processed with the current parameters :math:`n+1`\ ,
 the algorithmic latency is slightly higher than for processing done with
 frames purely of size *nframes* and no crossfade.
