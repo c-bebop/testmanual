@@ -187,7 +187,10 @@ Click on the SSR logo and you’ll see the *About the SSR* information.
 Source Properties Dialog
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-|image2| [fig:screenshot\ :sub:`s`\ pd]Source properties dialog
+.. figure:: source_properties.png
+    :align: center
+    
+Figure 5:source properties dialog
 
 The source properties dialog can be accessed via a right click on a
 source and shows information about the actual state of the selected
