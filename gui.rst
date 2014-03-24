@@ -174,7 +174,7 @@ reference point. To change their direction of incidence move the plane
 wave’s origin point to the appropriate position. Right clicking on a
 sound source opens a window which lists the properties of the source
 such as position, volume, etc. Refer to
-Fig. :ref:`5<source_properties>` and Sec. :ref:`Source Properties Dialog<source_property_dialog`.
+Fig. :ref:`5<source_properties>` and Sec. :ref:`Source Properties Dialog<source_property_dialog>`.
 
 A right mouse click on the scene background lets you select multiple
 sound sources via a rubber band.
