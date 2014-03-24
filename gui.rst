@@ -191,6 +191,7 @@ Click on the SSR logo and you’ll see the *About the SSR* information.
 Source Properties Dialog
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 .. _source_picture:
 
 .. figure:: source_properties.png
