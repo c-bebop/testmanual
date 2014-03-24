@@ -109,19 +109,21 @@ dynamic handling of audio files has not been implemented.
 Coordinate System
 ~~~~~~~~~~~~~~~~~
 
+.. _coordniate_system:
+
 .. figure:: coordinate_system.png
     :align: center
     
 Figure 1: The coordinate system used in the SSR. In ASDF :math:`\alpha` and :math:`\alpha'` are
 referred to as azimuth (refer to section :ref:`asdf<asdf>`).
 
-Fig. [fig:global coordinate system] depicts the
+Fig. :ref:`1a<coordinate_system>` depicts the
 global coordinate system used in the SSR. Virtual sound sources as well
 as the reference are positioned and orientated with respect to this
 coordinate system. For loudspeakers, positioning is a bit more tricky
 since it is done with respect to a local coordinate system determined by
 the reference. Refer to
-Fig. [fig:local coordinate system]. The loudspeakers
+Fig. :ref:`1b<coordinate_system>`. The loudspeakers
 are positioned with respect to the primed coordinates (:math:`x'`\ , 
 :math:`y'`\ , etc.).
 
