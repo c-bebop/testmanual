@@ -16,7 +16,7 @@ anti-aliasing. One day we will also implement a variable frequency for
 the screen update so that you can slow it down if CPU load is too high.
 Of course it won’t look as nice then.
 
-..ref: antialiasing
+.. _antialiasing:
 
 .. figure:: gui.png
     :align: center
