@@ -153,7 +153,7 @@ physically correctly reproduced. The physically correct reproduction of
 moving virtual sources as in requires a different implementation
 approach which is computationally significantly more costly.
 
-.. _binarual_renderer:
+.. _binaural_renderer:
 
 Binaural Renderer
 -----------------
@@ -261,7 +261,7 @@ only necessary when a correct graphical illustration is desired.
 
 The BRIRs are stored in the a format similar to the one for the HRIRs
 for the binaural renderer (refer to
-Section :ref:`Binaural Renderer<binaural_renderers>`). However, there is a
+Section :ref:`Binaural Renderer<binaural_renderer>`). However, there is a
 fundamental difference: In order to be consequent, the different
 channels do not hold the data for different positions of the virtual
 sound source but they hold the information for different head
@@ -555,7 +555,7 @@ Download the ASDF examples from  and check out the file
 
 ==================   ================   ======
       ..             individual delay   weight  
-==================   ================   ======
+------------------   ----------------   ------
  binaural renderer      *-*              *-*     
  BRS renderer           *-*              *-*     
  VBAP renderer          *+*              *+*     
@@ -571,7 +571,7 @@ Table 1: Loudspeaker properties considered by the different renderers.
 
 =================   ======   =====  ========  ================  ========== 
        ..           gain     mute   position  orientation [1]_  model
-=================   ======   =====  ========  ================  ==========
+-----------------   ------   -----  --------  ----------------  ----------
 binaural renderer    *+*     *+*     *+*         *-*            only ampl.
 BRS renderer         *+*     *+*     *-*         *-*              *-*
 VBAP renderer        *+*     *+*     *+*         *-*            only ampl.
