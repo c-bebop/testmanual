@@ -230,7 +230,7 @@ reproduction setup (see sections :ref:`Reproduction Setups<reproduction_setups>`
 :ref:`ASDF<asdf>`). The recording can then be used to analyze the SSR output or
 to replay it without the SSR using a software player like  "ecaplay".
 
-.. _configuration_file:
+.. _ssr_configuration_file:
 
 Configuration File
 ------------------
