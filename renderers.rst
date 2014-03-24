@@ -554,7 +554,7 @@ Download the ASDF examples from  and check out the file
 ====================== ================== ==========
                         individual delay    weight  
 ====================== ================== ==========
- binaural renderer             -              -     
+ binaural renderer            '-'            '-'     
 
  BRS renderer                  -              -     
 
