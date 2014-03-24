@@ -551,44 +551,41 @@ one method and another sound source in the other method.
 Download the ASDF examples from  and check out the file
 ``generic_renderer_example.asd`` which comes with all required data.
 
+.. _loudspeaker_properties:
+
 ================== ================ ======
                    individual delay weight  
 ================== ================ ======
  binaural renderer      *-*          *-*     
-
- BRS renderer            -            -     
-
- VBAP renderer           +            +     
-
- WFS renderer            -            +     
-
- AAP renderer          autom.         +     
-
- generic renderer        -            -     
+ BRS renderer           *-*          *-*     
+ VBAP renderer          *+*          *+*     
+ WFS renderer           *-*          *+*     
+ AAP renderer          autom.        *+*     
+ generic renderer       *-*          *-*     
 ================== ================ ======
 
 
-[tab:loudspeaker\ :sub:`p`\ roperties]Loudspeaker properties considered
-by the different renderers.
+Table 1: Loudspeaker properties considered by the different renderers.
 
-\| l \| c \| c \| c \| c \| c \|
+.. _source_props:
 
-& gain & mute & position & orientation [1]_ & model
-binaural renderer & + & + & + & - & only ampl.
-BRS renderer & + & + & - & - & -
-VBAP renderer & + & + & + & - & only ampl.
-WFS renderer & + & + & + & + & +
-AAP renderer & + & + & + & - & only ampl.
-generic renderer & + & + & - & - & -
+================= ====== ===== ======== ================ ========== 
+                  gain   mute  position orientation [1]_ model
+================= ====== ===== ======== ================ ==========
+binaural renderer  *+*    *+*   *+*         *-*          only ampl.
+BRS renderer       *+*    *+*   *-*         *-*             *-*
+VBAP renderer      *+*    *+*   *+*         *-*          only ampl.
+WFS renderer       *+*    *+*   *+*         *+*             *+*
+AAP renderer       *+*    *+*   *+*         *-*          only ampl.
+generic renderer   *+*    *+*   *-*         *-*             *-*
+================= ====== ===== ======== ================ ==========
 
-[tab:source\ :sub:`p`\ roperties]Virtual source’s properties considered
-by the different renderers.
+Table 2: Virtual source’s properties considered by the different renderers.
 
 Summary
 -------
 
-Tables [tab:loudspeaker\ :sub:`p`\ roperties]
-and [tab:source\ :sub:`p`\ roperties] summarize the functionality of the
+Tables :ref:`1<loudspeaker_properties>` and :ref:`2<source_props>` summarize the functionality of the
 SSR renderers.
 
 .. [1]
