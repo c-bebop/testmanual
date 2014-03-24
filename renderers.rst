@@ -126,7 +126,7 @@ Signal Processing
 
 All rendering algorithms are implemented on a frame-wise basis with an
 internal precision of 32 bit floating point. The signal processing is
-illustrated in Fig. [fig:signal\ :sub:`p`\ rocessing].
+illustrated in Fig. :ref:`2<signal_processing>`.
 
 The input signal is divided into individual frames of size *nframes*,
 whereby *nframes* is the frame size with which JACK is running. Then
@@ -138,6 +138,8 @@ is :math:`2\cdot\text{\emph{nframes}}` with 50% overlap. Due to the
 fade-in of the frame processed with the current parameters :math:`n+1`\ ,
 the algorithmic latency is slightly higher than for processing done with
 frames purely of size *nframes* and no crossfade.
+
+.. _signal_processing:
 
 .. figure:: frame_wise_signal.png
     :align: center
