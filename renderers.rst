@@ -183,17 +183,17 @@ the HRIR file contains 720 impulse responses (360 for each ear) stored
 as a 720-channel .wav-file. The HRIRs all have to be of equal length and
 have to be arranged in the following order:
 
--  1st channel: left ear, virtual source position 0:math:`^\circ`
+-  1st channel: left ear, virtual source position 0 :math:`^\circ`
 
--  2nd channel: right ear, virtual source position 0:math:`^\circ`
+-  2nd channel: right ear, virtual source position 0 :math:`^\circ`
 
--  3rd channel: left ear, virtual source position 1:math:`^\circ`
+-  3rd channel: left ear, virtual source position 1 :math:`^\circ`
 
--  4th channel: right ear, virtual source position 1:math:`^\circ`
+-  4th channel: right ear, virtual source position 1 :math:`^\circ`
 
 -  …
 
--  720th channel: right ear, virtual source position 359:math:`^\circ`
+-  720th channel: right ear, virtual source position 359 :math:`^\circ`
 
 If your HRIRs have lower angular resolution you have to interpolate them
 to the target resolution or use the same HRIR for serveral adjacent
