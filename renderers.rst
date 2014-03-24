@@ -139,13 +139,10 @@ fade-in of the frame processed with the current parameters :math:`n+1`\ ,
 the algorithmic latency is slightly higher than for processing done with
 frames purely of size *nframes* and no crossfade.
 
-input**input signal** output**output signal** dots**…** +**+** nframe
-:math:`n` n+1frame :math:`n\!+\!1` n+2frame :math:`n\!+\!2` n+3frame
-:math:`n\!+\!3` pn-1parameters :math:`n\!-\!1` pnparameters :math:`n`
-pn+1parameters :math:`n\!+\!1` pn+2parameters :math:`n\!+\!2`
-pn+3parameters :math:`n\!+\!3` |image|
-[fig:signal\ :sub:`p`\ rocessing]Illustration of the frame-wise signal
-processing as implemented in the SSR renderers (see text).
+.. figure: frame_wise_signal.png
+    :align: center
+    
+FIgure 2: Illustration of the frame-wise signal processing as implemented in the SSR renderers (see text).
 
 The implementation approach described above is one version of the
 standard way of implementing time-varying audio processing. Note however
