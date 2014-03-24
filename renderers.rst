@@ -551,15 +551,22 @@ one method and another sound source in the other method.
 Download the ASDF examples from  and check out the file
 ``generic_renderer_example.asd`` which comes with all required data.
 
-\| l \| c \| c \|
++---------------------+------------------+----------+
+|                     | individual delay |  weight  |
++---------------------+------------------+----------+
+| binaural renderer   |        -         |    -     |
++---------------------+------------------+----------+
+|BRS renderer         |        -         |    -     |
++---------------------+------------------+----------+
+|VBAP renderer        |        +         |    +     |
++---------------------+------------------+----------+
+|WFS renderer         |        -         |    +     |
++---------------------+------------------+----------+
+|AAP renderer         |      autom.      |    +     |
++---------------------+------------------+----------+
+|generic renderer     |        -         |    -     |
++---------------------+------------------+----------+
 
-& individual delay & weight
-binaural renderer & - & -
-BRS renderer & - & -
-VBAP renderer & + & +
-WFS renderer & - & +
-AAP renderer & autom. & +
-generic renderer & - & -
 
 [tab:loudspeaker\ :sub:`p`\ roperties]Loudspeaker properties considered
 by the different renderers.
