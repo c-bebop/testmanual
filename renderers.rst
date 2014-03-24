@@ -134,7 +134,7 @@ e.g. frame number :math:`n+1` is processed both with previous rendering
 parameters :math:`n` as well as with current parameters :math:`n+1`\ .
 It is then crossfaded between both processed frames with cosine-shaped
 slopes. In other words the effective frame size of the signal processing
-is :math:`2\cdot\text{\emph{nframes}}` with 50% overlap. Due to the
+is :math:`2\cdot\textit{nframes}` with 50% overlap. Due to the
 fade-in of the frame processed with the current parameters :math:`n+1`\ ,
 the algorithmic latency is slightly higher than for processing done with
 frames purely of size *nframes* and no crossfade.
@@ -178,7 +178,7 @@ the listener position) than 0.5 mtrs, the HRTFs are interpolated with a
 Dirac impulse. This ensures a smooth transition of virtual sources from
 the outside of the listener’s head to the inside.
 
-SSR uses HRIRs with an angular resolution of 1:math:`^\circ`\ . Thus,
+SSR uses HRIRs with an angular resolution of 1:math:`^\circ` . Thus,
 the HRIR file contains 720 impulse responses (360 for each ear) stored
 as a 720-channel .wav-file. The HRIRs all have to be of equal length and
 have to be arranged in the following order:
@@ -281,7 +281,7 @@ orientations. Explicitely,
 
 In order to assign a set of BRIRs to a given sound source an appropriate
 scene description in ``.asd``-format has to be prepared (refer also to
-Section :ref:'audio_scenes<audio_scenes>'). As shown in ``brs_example.asd`` (from the example scenes), a virtual source has the optional property ``properties_file`` which holds the location of the file containing the
+Section :ref:`Audio Scenes<audio_scenes>`). As shown in ``brs_example.asd`` (from the example scenes), a virtual source has the optional property ``properties_file`` which holds the location of the file containing the
 desired BRIR set. The location to be specified is relative to the folder
 of the scene file. Note that – as described above – specification of the
 virtual source’s position does not affect the audio processing. If you
@@ -495,11 +495,11 @@ e.g. in reading
 .. math::
 
    d(\alpha_0)  = \frac{\sin\left ( \frac{2M+1}{2} \ (\alpha_0 -
-   \alpha_\textnormal{s})\right )} {(2M+1) \ \sin \left ( \frac{\alpha_0 -
-   \alpha_\textnormal{s}}{2} \right ) } \ , \nonumber
+   \alpha_\textrm{s})\right )} {(2M+1) \ \sin \left ( \frac{\alpha_0 -
+   \alpha_\textrm{s}}{2} \right ) } \ , \nonumber
 
 whereby :math:`\alpha_0` is the polar angle of the position of the
-considered secondary source, :math:`\alpha_\textnormal{s}` is the polar
+considered secondary source, :math:`\alpha_\textrm{s}` is the polar
 angle of the position of the virtual source, and :math:`M` is the
 Ambisonics order.
 
@@ -519,7 +519,7 @@ These problems can be worked around when only positive weights are
 applied on the input signal (*in-phase* rendering). This can be
 accomplished via the in-phase driving function given e.g. in reading
 
-.. math:: d(\alpha_0) = \cos^{2M} \left (\frac{\alpha_0 - \alpha_\textnormal{s}}{2} \right ) \ . \nonumber
+.. math:: d(\alpha_0) = \cos^{2M} \left (\frac{\alpha_0 - \alpha_\textrm{s}}{2} \right ) \ . \nonumber
 
 Note that in-phase rendering leads to a less precise localization of the
 virtual source and other unwanted perceptions. You can enable in-phase
