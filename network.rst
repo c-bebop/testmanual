@@ -1,3 +1,7 @@
+.. index::
+   single: Network
+
+
 .. _network:
 
 Network Interface
