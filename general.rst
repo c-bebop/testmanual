@@ -1,3 +1,6 @@
+.. index::
+    single: General stuff
+
 General stuff
 =============
 
