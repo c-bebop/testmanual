@@ -1,3 +1,7 @@
+.. index::
+    single: GUI
+    
+    
 .. _gui:
 
 Graphical User Interface
