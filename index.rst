@@ -6,9 +6,6 @@
 Welcome to SSR Documentation!
 ==================================
 
-.. contents:: Inhaltsverzeichnis
-
-Contents:
 
 .. toctree::
    :maxdepth: 2
