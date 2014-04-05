@@ -6,6 +6,8 @@
 Welcome to SSR Documentation!
 ==================================
 
+.. contents:: Inhaltsverzeichnis
+
 Contents:
 
 .. toctree::
