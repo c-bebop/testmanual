@@ -1,3 +1,6 @@
+.. index::
+    single: Operation
+
 Compiling and running the SSR
 =============================
 
