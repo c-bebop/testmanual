@@ -1,3 +1,7 @@
+.. index::
+    single: Renderers
+
+
 .. _renderers:
 
 The Renderers
