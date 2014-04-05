@@ -11,11 +11,11 @@ Table of Contens:
 .. toctree::
    :maxdepth: 2
 
-   general
-   operation
-   renderers
-   gui
-   network
+   general.rst
+   operation.rst
+   renderers.rst
+   gui.rst
+   network.rst
 
 Indices and tables
 ==================
