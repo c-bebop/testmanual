@@ -13,7 +13,7 @@
 
 import sys, os
 
-# from sphinx.builders.gettext import MessageCatalogBuilder
+from sphinx.builders.gettext import MessageCatalogBuilder
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
