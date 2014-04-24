@@ -8,11 +8,11 @@ Welcome to SSR Documentation!
 
 .. toctree::
    
-   general.rst
-   operation.rst
-   renderers.rst
-   gui.rst
-   network.rst
+   general
+   operation
+   renderers
+   gui
+   network
 
 Indices and tables
 ==================
