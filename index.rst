@@ -8,6 +8,8 @@ Welcome to SSR Documentation!
 
 Table of Contens:
 
+.. contents:: :depth: 2
+
 .. toctree::
    :maxdepth: 2
 
