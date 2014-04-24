@@ -6,10 +6,8 @@
 Welcome to SSR Documentation!
 ==================================
 
-
 .. toctree::
-   :maxdepth: 2
-
+   
    general.rst
    operation.rst
    renderers.rst
